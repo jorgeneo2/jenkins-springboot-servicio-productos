@@ -1,0 +1,12 @@
+Nombre,Tipo de Identificación,Identificación,Tipo de Pago,Código de Dependencia,Tipo de Cuenta,Número de Cuenta,Código Banco,Banco,Cuenta Por Defecto,Correo Electrónico,Notificación Correo,Fecha de Creación,Fecha de Modificación,Estado Registro,Motivo Rechazo,Mensaje
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,"No se rechaza, todo se encuentra correcto",1 valor nombre 2 valor
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre 3 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre 3 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre 3 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre 3 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre
+INSTITUTO PER,Nit,456789,credito,2,AHO,987,BC2,mi bank,AHO 987,ma@itau.co,N,01-02-2022 / 13:00,02-02-2022 / 16:00,OK,No se rechaza,1 valor nombre 2 valor nombre

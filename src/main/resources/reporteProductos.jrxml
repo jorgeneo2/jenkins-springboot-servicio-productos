@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteProductos" pageWidth="440" pageHeight="792" columnWidth="400" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8b2d703f-c03d-4a05-a95c-5e02878290e2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Json Data Adapter ReporteProducto"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F3C8F7">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#C2FFFE">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="DatasetTable" uuid="192bcd94-9935-4d39-b122-53e942f67a26">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Json Data Adapter ReporteProducto"/>
+		<queryString language="json">
+			<![CDATA[reporteProducto]]>
+		</queryString>
+		<field name="id" class="java.lang.Long">
+			<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+			<fieldDescription><![CDATA[id]]></fieldDescription>
+		</field>
+		<field name="nombre" class="java.lang.String">
+			<property name="net.sf.jasperreports.json.field.expression" value="nombre"/>
+			<fieldDescription><![CDATA[nombre]]></fieldDescription>
+		</field>
+		<field name="precio" class="java.lang.Double">
+			<property name="net.sf.jasperreports.json.field.expression" value="precio"/>
+			<fieldDescription><![CDATA[precio]]></fieldDescription>
+		</field>
+		<field name="port" class="java.lang.Integer">
+			<property name="net.sf.jasperreports.json.field.expression" value="port"/>
+			<fieldDescription><![CDATA[port]]></fieldDescription>
+		</field>
+		<field name="listaProductos" class="java.lang.String">
+			<property name="net.sf.jasperreports.json.field.expression" value="listaProductos"/>
+			<fieldDescription><![CDATA[listaProductos]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="paramListaProductos" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource" isForPrompting="false"/>
+	<parameter name="createdBy" class="java.lang.String" isForPrompting="false"/>
+	<queryString language="json">
+		<![CDATA[reporteProducto]]>
+	</queryString>
+	<field name="id" class="java.lang.Long">
+		<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nombre"/>
+		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	</field>
+	<field name="precio" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="precio"/>
+		<fieldDescription><![CDATA[precio]]></fieldDescription>
+	</field>
+	<field name="port" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="port"/>
+		<fieldDescription><![CDATA[port]]></fieldDescription>
+	</field>
+	<field name="listaProductos" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="listaProductos"/>
+		<fieldDescription><![CDATA[listaProductos]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="87" splitType="Stretch">
+			<staticText>
+				<reportElement x="135" y="24" width="130" height="30" forecolor="#0000CC" uuid="2c8d5869-4959-4f7f-ad50-3452558774ea"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reporte Productos]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="30" uuid="527594b0-9102-448a-a18a-8fa1e78cf745"/>
+				<textFieldExpression><![CDATA[$P{createdBy}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="29c86b1b-8f99-40ae-8642-5544b36cad33">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6de476b9-dbf0-44b3-9633-a8349ce8022a"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="30" uuid="d998ab12-9be8-4539-9eba-53c5dfffa7dc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b3aacd4a-5cee-4960-a87c-885b07aedaac"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="30" uuid="558a0a05-60b1-4f96-8940-0f4966a2b808">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4bb2dcd-99c7-4c2f-a362-ad95a204af71"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[precio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="30" uuid="9047c1e8-d5b7-4e6c-a6cd-2e4335a791c5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="94552aae-3977-4d5e-8f96-1c17fc383c67"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[port]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="30" width="400" height="1" uuid="d914d11e-891f-4f02-9fd6-32b7153b1d46"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="320" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="ed1baacd-722d-43e7-b7af-0d9c0d3f8cdb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6de476b9-dbf0-44b3-9633-a8349ce8022a"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="100" height="30" uuid="bf6043d1-ab24-49e3-ac52-fd270b9f2c5e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b3aacd4a-5cee-4960-a87c-885b07aedaac"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###;(#,##0.###-)">
+				<reportElement x="200" y="0" width="100" height="30" uuid="4f34db66-9924-41e7-9892-061b6fc66dba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4bb2dcd-99c7-4c2f-a362-ad95a204af71"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="30" uuid="db605641-37bc-40c3-8346-8563b8af2257">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="94552aae-3977-4d5e-8f96-1c17fc383c67"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{port}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="0" y="250" width="400" height="60" uuid="c0f8e0b9-90be-4eea-a247-63703e208fb6"/>
+				<!-- ESTA FALLANDO EL ENVIO DE LA DATA AL SUBREPORTE-->
+				<!-- <dataSourceExpression><![CDATA[//SUB_DATA_SOURCE("listaProductos")
+((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("listaProductos")]]></dataSourceExpression> -->
+				<subreportExpression><![CDATA["SubReporteProductos.jasper"]]></subreportExpression>
+			</subreport>
+			<line>
+				<reportElement x="0" y="30" width="400" height="1" uuid="10dcfdd5-aca1-4fa4-bff9-6ba0b7e08fb8"/>
+			</line>
+			<componentElement>
+				<reportElement x="100" y="90" width="200" height="160" uuid="bc3b3783-e894-465c-8ad4-865191dc2165">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+					<property name="com.jaspersoft.studio.element.name" value="jasper studio"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DatasetTable" uuid="2698890f-445a-4105-8daa-945819a743ef">
+						<!-- ESTA FALLANDO EL ENVIO DE LA DATA AL SUBREPORTE-->
+						<!-- <dataSourceExpression><![CDATA[//SUB_DATA_SOURCE("listaProductos")
+((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("listaProductos")]]></dataSourceExpression> -->
+					</datasetRun>
+					<jr:column width="40" uuid="ec0a6125-88b7-4eeb-a50a-58f36e063fd5">
+						<jr:tableHeader style="Table 2_TH" height="30"/>
+						<jr:tableFooter style="Table 2_TH" height="30"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="a24cda08-31b9-4b45-958f-2d2b1af214fc"/>
+								<text><![CDATA[id]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="31c9231c-5711-406e-941c-961391f6889e"/>
+								<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="a18414e3-17d1-4e13-8339-b748ce055f10">
+						<jr:tableHeader style="Table 2_TH" height="30"/>
+						<jr:tableFooter style="Table 2_TH" height="30"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="c408007b-7228-4b01-958a-e0a83e228e36"/>
+								<text><![CDATA[nombre]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="b6f15227-f7c8-45b8-928b-c575d04f092a"/>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="4ad44c93-9f64-4bca-94ef-5ec60630f7e3">
+						<jr:tableHeader style="Table 2_TH" height="30"/>
+						<jr:tableFooter style="Table 2_TH" height="30"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="229ce4c9-a7ef-40a4-b56a-abaacb1e5dfd"/>
+								<text><![CDATA[precio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="cf5ad7c1-75fa-44fb-bbbf-804a8df07c3f"/>
+								<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="e4e3f7c0-0047-459c-a3d7-35abeb8596a9">
+						<jr:tableHeader style="Table 2_TH" height="30"/>
+						<jr:tableFooter style="Table 2_TH" height="30"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" backcolor="#FFFFFF" uuid="b2b74641-9895-42e7-b90c-f956f896eea8"/>
+								<text><![CDATA[port]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="c5c7ae34-7b1f-4971-8649-e917bb5e2d2c"/>
+								<textFieldExpression><![CDATA[$F{port}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="1ebf96db-5cc9-4b3f-b118-49e13baac345">
+						<jr:tableHeader style="Table 2_TH" height="30"/>
+						<jr:tableFooter style="Table 2_TH" height="30"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="d250b3df-7705-442b-90a9-ba0d2f982e4d"/>
+								<text><![CDATA[listaProductos]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="d0c023e4-d79e-4fb6-8002-fdb48e37fc1e"/>
+								<textFieldExpression><![CDATA[$F{listaProductos}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="70" y="40" width="250" height="50" forecolor="#0000CC" uuid="ea148a64-f21f-4b93-98cc-0d4b645bab41"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tabla como SubReporte Productos
+solo desde jasper studio]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<summary>
+		<band height="516">
+			<staticText>
+				<reportElement x="80" y="10" width="240" height="60" forecolor="#0000CC" uuid="55e97d81-c92f-401e-b634-a84fea4b8dca"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tabla como SubReporte Productos
+solo desde java]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="100" y="80" width="200" height="200" uuid="41e17d76-cd53-41bf-b796-fa5a0a994f43">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<property name="com.jaspersoft.studio.element.name" value="java"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DatasetTable" uuid="e2f879c6-b807-40e4-9383-ec011b222374">
+						<dataSourceExpression><![CDATA[$P{paramListaProductos}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="50" uuid="4e90e2de-c911-45d8-83f0-584b291f1e91">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="04e3becd-fe89-4a60-993e-0e5946ff0c22"/>
+								<text><![CDATA[id]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="3c012ce1-1b0e-4d3c-8c0e-c1774aacd434"/>
+								<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="8dd687a2-02db-48d3-bd82-8aa365e34b8d">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="8622835a-7903-4c9d-a567-818d3fd01b3f"/>
+								<text><![CDATA[nombre]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="a0dd2cb7-5515-427a-ac95-186274592fb7"/>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="3eae3979-5e63-4950-9254-d58a1b5abe56">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="12cfe676-6fb2-47ca-97d5-118b40aea44a"/>
+								<text><![CDATA[precio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="bd7cadbb-e7bc-4915-b3ef-4ad03630c428"/>
+								<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="d28cd2a1-3bcc-47d7-b6af-d6db4f6fa00b">
+						<jr:tableHeader style="Table_TH" height="30"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="d9716033-3ffa-46a1-8984-7a1c9c8809f5"/>
+								<text><![CDATA[port]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="27f6c076-cd23-4fd3-a45c-e84e45162df9"/>
+								<textFieldExpression><![CDATA[$F{port}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="313" width="370" height="203" uuid="ab73947d-be8b-487b-a7f4-97d6204aaf1b"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Nota: Java desconoce el uso en Data Source expression:
+
+SUB_DATA_SOURCE("listaProductos")
+
+ó
+
+((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("listaProductos")
+
+Por lo tanto se debe comentar las lineas de la etiqueta <dataSourceExpression>]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

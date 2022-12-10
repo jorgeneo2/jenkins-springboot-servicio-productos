@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteProductos" pageWidth="440" pageHeight="792" columnWidth="400" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8b2d703f-c03d-4a05-a95c-5e02878290e2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Json Data Adapter SubReporteProducto"/>
+	<queryString language="json">
+		<![CDATA[subReporteProducto]]>
+	</queryString>
+	<field name="id" class="java.lang.Long">
+		<property name="net.sf.jasperreports.json.field.expression" value="id"/>
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nombre"/>
+		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	</field>
+	<field name="precio" class="java.lang.Double">
+		<property name="net.sf.jasperreports.json.field.expression" value="precio"/>
+		<fieldDescription><![CDATA[precio]]></fieldDescription>
+	</field>
+	<field name="port" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="port"/>
+		<fieldDescription><![CDATA[port]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="135" y="24" width="130" height="30" forecolor="#0000CC" uuid="2c8d5869-4959-4f7f-ad50-3452558774ea"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SubReporte Productos]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="29c86b1b-8f99-40ae-8642-5544b36cad33">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6de476b9-dbf0-44b3-9633-a8349ce8022a"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="30" uuid="d998ab12-9be8-4539-9eba-53c5dfffa7dc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b3aacd4a-5cee-4960-a87c-885b07aedaac"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="30" uuid="558a0a05-60b1-4f96-8940-0f4966a2b808">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4bb2dcd-99c7-4c2f-a362-ad95a204af71"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[precio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="30" uuid="9047c1e8-d5b7-4e6c-a6cd-2e4335a791c5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="94552aae-3977-4d5e-8f96-1c17fc383c67"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[port]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="30" width="400" height="1" uuid="d914d11e-891f-4f02-9fd6-32b7153b1d46"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="ed1baacd-722d-43e7-b7af-0d9c0d3f8cdb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6de476b9-dbf0-44b3-9633-a8349ce8022a"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="100" height="30" uuid="bf6043d1-ab24-49e3-ac52-fd270b9f2c5e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b3aacd4a-5cee-4960-a87c-885b07aedaac"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###;(#,##0.###-)">
+				<reportElement x="200" y="0" width="100" height="30" uuid="4f34db66-9924-41e7-9892-061b6fc66dba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4bb2dcd-99c7-4c2f-a362-ad95a204af71"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="30" uuid="db605641-37bc-40c3-8346-8563b8af2257">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="94552aae-3977-4d5e-8f96-1c17fc383c67"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{port}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
